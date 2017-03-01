@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B56B4D3B1E66330000955E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56B4D3A1E66330000955E5E /* AppDelegate.swift */; };
+		B56B4D3D1E66330000955E5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56B4D3C1E66330000955E5E /* ViewController.swift */; };
+		B56B4D401E66330000955E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56B4D3E1E66330000955E5E /* Main.storyboard */; };
+		B56B4D431E66330000955E5E /* Honor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B56B4D411E66330000955E5E /* Honor.xcdatamodeld */; };
+		B56B4D451E66330000955E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56B4D441E66330000955E5E /* Assets.xcassets */; };
+		B56B4D481E66330000955E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56B4D461E66330000955E5E /* LaunchScreen.storyboard */; };
+		B56B4D501E6635D300955E5E /* DataRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56B4D4F1E6635D300955E5E /* DataRecord.swift */; };
+		B56B4D551E66503B00955E5E /* MainThreadGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = B56B4D521E66386400955E5E /* MainThreadGuard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B56B4D371E66330000955E5E /* Honor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56B4D3A1E66330000955E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B56B4D3C1E66330000955E5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B56B4D3F1E66330000955E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B56B4D421E66330000955E5E /* Honor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Honor.xcdatamodel; sourceTree = "<group>"; };
+		B56B4D441E66330000955E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B56B4D471E66330000955E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B56B4D491E66330000955E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56B4D4F1E6635D300955E5E /* DataRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRecord.swift; sourceTree = "<group>"; };
+		B56B4D521E66386400955E5E /* MainThreadGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainThreadGuard.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B56B4D341E66330000955E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B56B4D2E1E66330000955E5E = {
+			isa = PBXGroup;
+			children = (
+				B56B4D391E66330000955E5E /* Honor */,
+				B56B4D541E6639A300955E5E /* Objective-C */,
+				B56B4D381E66330000955E5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B56B4D381E66330000955E5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B56B4D371E66330000955E5E /* Honor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B56B4D391E66330000955E5E /* Honor */ = {
+			isa = PBXGroup;
+			children = (
+				B56B4D3A1E66330000955E5E /* AppDelegate.swift */,
+				B56B4D3C1E66330000955E5E /* ViewController.swift */,
+				B56B4D4F1E6635D300955E5E /* DataRecord.swift */,
+				B56B4D3E1E66330000955E5E /* Main.storyboard */,
+				B56B4D441E66330000955E5E /* Assets.xcassets */,
+				B56B4D461E66330000955E5E /* LaunchScreen.storyboard */,
+				B56B4D491E66330000955E5E /* Info.plist */,
+				B56B4D411E66330000955E5E /* Honor.xcdatamodeld */,
+			);
+			path = Honor;
+			sourceTree = "<group>";
+		};
+		B56B4D541E6639A300955E5E /* Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				B56B4D521E66386400955E5E /* MainThreadGuard.m */,
+			);
+			name = "Objective-C";
+			path = Honor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B56B4D361E66330000955E5E /* Honor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56B4D4C1E66330000955E5E /* Build configuration list for PBXNativeTarget "Honor" */;
+			buildPhases = (
+				B56B4D331E66330000955E5E /* Sources */,
+				B56B4D341E66330000955E5E /* Frameworks */,
+				B56B4D351E66330000955E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Honor;
+			productName = Honor;
+			productReference = B56B4D371E66330000955E5E /* Honor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B56B4D2F1E66330000955E5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ben Gottlieb";
+				TargetAttributes = {
+					B56B4D361E66330000955E5E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YY6CWUX533;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B56B4D321E66330000955E5E /* Build configuration list for PBXProject "Honor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B56B4D2E1E66330000955E5E;
+			productRefGroup = B56B4D381E66330000955E5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B56B4D361E66330000955E5E /* Honor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B56B4D351E66330000955E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56B4D481E66330000955E5E /* LaunchScreen.storyboard in Resources */,
+				B56B4D451E66330000955E5E /* Assets.xcassets in Resources */,
+				B56B4D401E66330000955E5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B56B4D331E66330000955E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56B4D551E66503B00955E5E /* MainThreadGuard.m in Sources */,
+				B56B4D3D1E66330000955E5E /* ViewController.swift in Sources */,
+				B56B4D3B1E66330000955E5E /* AppDelegate.swift in Sources */,
+				B56B4D501E6635D300955E5E /* DataRecord.swift in Sources */,
+				B56B4D431E66330000955E5E /* Honor.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B56B4D3E1E66330000955E5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56B4D3F1E66330000955E5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B56B4D461E66330000955E5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56B4D471E66330000955E5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B56B4D4A1E66330000955E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B56B4D4B1E66330000955E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B56B4D4D1E66330000955E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = YY6CWUX533;
+				INFOPLIST_FILE = Honor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.standalone.Honor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B56B4D4E1E66330000955E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = YY6CWUX533;
+				INFOPLIST_FILE = Honor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.standalone.Honor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B56B4D321E66330000955E5E /* Build configuration list for PBXProject "Honor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56B4D4A1E66330000955E5E /* Debug */,
+				B56B4D4B1E66330000955E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B56B4D4C1E66330000955E5E /* Build configuration list for PBXNativeTarget "Honor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56B4D4D1E66330000955E5E /* Debug */,
+				B56B4D4E1E66330000955E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B56B4D411E66330000955E5E /* Honor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B56B4D421E66330000955E5E /* Honor.xcdatamodel */,
+			);
+			currentVersion = B56B4D421E66330000955E5E /* Honor.xcdatamodel */;
+			path = Honor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B56B4D2F1E66330000955E5E /* Project object */;
+}
